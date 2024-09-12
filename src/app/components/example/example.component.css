@@ -1,0 +1,16 @@
+header{
+    background-color: forestgreen;
+
+}
+
+h1{
+    font-size: 25px;
+}
+
+nav{
+    color: aqua;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
