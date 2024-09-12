@@ -7,7 +7,7 @@
     color: var(--primary-color);
     padding: 10px 20px 0 20px;
   }
-  .listing-photo {
+  .listing-photo{
     height: 250px;
     width: 100%;
     object-fit: cover;

@@ -9,8 +9,12 @@ import { HousingLocation } from './housing-location-interface';
   template:`<section class="listing">
               <img 
                 class="listing-photo"
-                [src]="housingLocation.photo"              
-              >
+                [src]="housingLocation.photo"
+                alt= "exterior photo of {{housingLocation.name}}"
+                crossorigin            
+              />
+              <h2 class="listing-heading">{{ housingLocation.name}}</h2>
+              <p class="listing-location">{{housingLocation.city}},{{housingLocation.state}}<p>
             </section>`,
   styleUrls: ['./housing-location.component.css']  // Use plural 'styleUrls'
 })
